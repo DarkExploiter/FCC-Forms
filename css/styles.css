@@ -1,3 +1,8 @@
 .mainForm {
-    background-color: rgba(100,100,100,.5)
+    background-color: rgba(100,100,100,.2);
+    display: block;
+}
+
+.block-display {
+    display: block;
 }
