@@ -1,14 +1,26 @@
 body {
+    background: url('/images/blue\ sky\ background.png');
+    background-size: cover;
     font-family: sans-serif;
 }
 
 
 .mainForm {
+    color: #111;
     margin: 0 auto;
-    background-color: rgba(100,100,100,.110);
+    background-color: rgba(50, 50, 50, 0.1);
     display: block;
     width: 50%;
     height: max-content;
     padding: 20px;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0.5rem;
+    width: 60%;
+
 }
 

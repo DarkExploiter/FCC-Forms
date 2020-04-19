@@ -12,9 +12,7 @@
     <div class="main">
         <div class="layer">
 
-            <!-- == name
-            == email -- validate
-            == number field -- validate
+       <!-- == number field -- validate
             == min/max number field -- validate -->
 
             <form id="survey-form" action="" class="mainForm">
@@ -22,14 +20,18 @@
                 <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum cumque quos optio
                     ducimus fugiat, placeat corrupti tenetur doloremque voluptatum maxime totam sunt animi nostrum
                     adipisci atque iure deserunt obcaecati? Voluptas?</p>
-                <label id="name-label" for="name" class="">
-                    First Name
-                </label>
-                <input class="" type="text" name="name" id="name" value="" required>
-                <label id="email-label" for="email" class="">
-                    email
-                </label>
-                <input type="email" name="email" id="email" value="">
+                <div class="form-item">
+                    <label id="name-label" for="name" class="">
+                        First Name
+                    </label>
+                    <input class="" type="text" name="name" id="name" value="" required>
+                </div> 
+                <div class="form-item">
+                    <label id="email-label" for="email" class="">
+                        email
+                    </label>
+                    <input type="email" name="email" id="email" value="">
+                </div>
                 <input class="" type="submit" value="submit">
             </form>
         </div>
