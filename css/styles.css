@@ -1,8 +1,14 @@
-.mainForm {
-    background-color: rgba(100,100,100,.2);
-    display: block;
+body {
+    font-family: sans-serif;
 }
 
-.block-display {
+
+.mainForm {
+    margin: 0 auto;
+    background-color: rgba(100,100,100,.110);
     display: block;
+    width: 50%;
+    height: max-content;
+    padding: 20px;
 }
+

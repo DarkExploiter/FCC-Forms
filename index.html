@@ -11,27 +11,32 @@
 <body>
     <div class="main">
         <div class="layer">
-                    
-            <h1 id="title">hello world</h1>
-            <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum cumque quos optio ducimus fugiat, placeat corrupti tenetur doloremque voluptatum maxime totam sunt animi nostrum adipisci atque iure deserunt obcaecati? Voluptas?</p>
+
             <!-- == name
             == email -- validate
             == number field -- validate
             == min/max number field -- validate -->
 
             <form id="survey-form" action="" class="mainForm">
-                <label for="name" class="">
+                <h1 id="title">hello world</h1>
+                <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum cumque quos optio
+                    ducimus fugiat, placeat corrupti tenetur doloremque voluptatum maxime totam sunt animi nostrum
+                    adipisci atque iure deserunt obcaecati? Voluptas?</p>
+                <label id="name-label" for="name" class="">
                     First Name
                 </label>
-                <input class="block-display"type="text" name="name" id="name">
-
+                <input class="" type="text" name="name" id="name" value="" required>
+                <label id="email-label" for="email" class="">
+                    email
+                </label>
+                <input type="email" name="email" id="email" value="">
+                <input class="" type="submit" value="submit">
             </form>
-            <h2></h2>
         </div>
 
     </div>
 
-            <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
 </html>
