@@ -12,27 +12,36 @@
     <div class="main">
         <div class="layer">
 
-       <!-- == number field -- validate
+            <!-- == number field -- validate
             == min/max number field -- validate -->
 
             <form id="survey-form" action="" class="mainForm">
-                <h1 id="title">hello world</h1>
-                <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum cumque quos optio
-                    ducimus fugiat, placeat corrupti tenetur doloremque voluptatum maxime totam sunt animi nostrum
-                    adipisci atque iure deserunt obcaecati? Voluptas?</p>
+                <div class="heading">
+                <img class="img-fix"src="https://cdn.dribbble.com/users/3527252/screenshots/6614198/color-1.jpg" alt="Main company logo">
+                <h1 id="title">Customer Sign Up Form</h1>
+                </div>
+                <p id="description">Please enter your details below.</p>
                 <div class="form-item">
                     <label id="name-label" for="name" class="">
-                        First Name
+                        Name
                     </label>
-                    <input class="" type="text" name="name" id="name" value="" required>
-                </div> 
+                    <input placeholder="Please enter you name..." type="text" name="name" id="name" value="" required>
+                </div>
                 <div class="form-item">
-                    <label id="email-label" for="email" class="">
+                    <label id="email-label" for="email" >
                         email
                     </label>
-                    <input type="email" name="email" id="email" value="">
+                    <input placeholder="Please enter you email..." type="email" name="emails" id="email" value="" required>
                 </div>
-                <input class="" type="submit" value="submit">
+                <div class="form-item">
+                    <label for="age" id="number-label">
+                        Date of birth (optional)
+                    </label>
+                    <input placeholder="Please enter you age(optional)"type="number" name="age" id="number" min="18" max="99">
+                </div>
+
+                
+                <input class="sub-btn" type="submit" value="submit">
             </form>
         </div>
 

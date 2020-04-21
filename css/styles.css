@@ -1,14 +1,35 @@
 body {
+    text-align: center;
     background: url('/images/blue\ sky\ background.png');
     background-size: cover;
     font-family: sans-serif;
+
 }
 
+.main {
+    padding-top: 3rem;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-fix {
+    width: 15%;
+    height: 15%;
+    padding: 1rem 1rem 1rem 4rem;
+}
+
+.img-fix + h1 {
+    padding-left: 5rem;
+}
 
 .mainForm {
     color: #111;
     margin: 0 auto;
     background-color: rgba(50, 50, 50, 0.1);
+    border-radius: 25px;
     display: block;
     width: 50%;
     height: max-content;
@@ -21,6 +42,17 @@ body {
     margin: 0 auto;
     padding: 0.5rem;
     width: 60%;
+    text-align: left;
 
+}
+
+label {
+    padding-bottom: 0.5rem;
+}
+
+.sub-btn {
+    width: 25%;
+    margin: 0 auto;
+    margin: 0.5rem;
 }
 
